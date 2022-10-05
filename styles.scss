@@ -2,6 +2,15 @@ $priColor: #172b4d;
 $secColor: #36b37f;
 $font-family-1: 'Inter', sans-serif;
 
+body{
+  font-family: $font-family-1;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 header {
   background-color: #fff;
   padding-bottom: 412px;
@@ -61,4 +70,45 @@ nav {
   .arrow {
     margin: 60px;
   }
+}
+.container h2{
+  color: $priColor;
+  font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+.work{
+  margin-bottom: 192px;
+  .d-flex{
+    justify-content: space-between;
+  }
+
+  .card-title{
+    color:$priColor;
+  }
+  li{
+    background-color:#EBF0EE;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .card-img-top{
+    height: 252px;
+    background-color:  #EBF0EE;
+
+  }
+  .work-item{
+    margin-top: 20px;
+  }
+}
+.card-body{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
 }

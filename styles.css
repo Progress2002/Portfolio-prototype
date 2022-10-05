@@ -1,3 +1,13 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 header {
   background-color: #fff;
   padding-bottom: 412px;
@@ -10,7 +20,6 @@ header {
 nav .logo {
   display: none;
 }
-
 nav .nav-link {
   color: #172b4d;
 }
@@ -28,12 +37,10 @@ nav .nav-link {
   height: 114px;
   margin: 140px auto 15px;
 }
-
 .headline h1 span {
   color: #172b4d;
   display: block;
 }
-
 .headline p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -45,12 +52,52 @@ nav .nav-link {
   height: 100px;
   margin: auto;
 }
-
 .headline .icons {
   color: #172b4d;
   font-size: 20px;
 }
-
 .headline .arrow {
   margin: 60px;
 }
+
+.container h2 {
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.work {
+  margin-bottom: 192px;
+}
+.work .d-flex {
+  justify-content: space-between;
+}
+.work .card-title {
+  color: #172b4d;
+}
+.work li {
+  background-color: #EBF0EE;
+  padding: 7px 12px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+.work .card-img-top {
+  height: 252px;
+  background-color: #EBF0EE;
+}
+.work .work-item {
+  margin-top: 20px;
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}/*# sourceMappingURL=styles.css.map */

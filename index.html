@@ -1,80 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Prototype</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://kit.fontawesome.com/b21ce73c3c.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="container-fluid navbar-expand-sm  navbar-light ">
-        <nav class="navbar container navbar-expand-sm  navbar-light">
-            <div class="container-fluid">
-              <a class="navbar-brand logo" href="#">Logo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                <ul class="navbar-nav ">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
+    <script
+      src="https://kit.fontawesome.com/b21ce73c3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container-fluid navbar-expand-sm navbar-light">
+      <nav class="navbar container navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="collapsibleNavbar"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="container text-center headline">
+        <h1><span>Hey there. I’m Alex.</span> I’m a software developer</h1>
+        <p class="description">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <ul class="navbar-nav justify-content-center" id="social-icons">
+          <li class="nav-item">
+            <a
+              class="icons nav-link m-2"
+              href="#"
+              aria-label="Access my github account"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-link m-2">
+            <a class="icons" href="#">
+              <i class="fa-brands fa-linkedin-in icon"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-link m-2">
+            <a class="icons" href="#">
+              <i class="fa-brands fa-angellist icon"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-link m-2">
+            <a
+              class="icons"
+              href="https://twitter.com/Progress_2002"
+              aria-label="Access my Twitter account"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item nav-link m-2">
+            <a class="icons" href="#">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="arrow">
+          <i
+            class="fa-solid fa-arrow-down border border-2 py-3 px-3 rounded-circle"
+          ></i>
+        </div>
+      </section>
+    </header>
+    <section class="container work my-5">
+      <h2 class="text-center h1">My Recent Works</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
+              </ul>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
               </div>
             </div>
-          </nav>
-          <section class="container text-center headline">
-              <h1><span>Hey there. I’m Alex.</span> I’m a software developer</h1>
-              <p class="description">
-                I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-              </p>
-              <ul class="navbar-nav justify-content-center " id="social-icons">
-                <li class="nav-item">
-                    <a  class="icons nav-link m-2"href="#" aria-label="Access my github account">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-                <li class="nav-item  nav-link m-2">
-                    <a class="icons" href="#">
-                        <i class="fa-brands fa-linkedin-in icon"></i>
-                    </a>
-                </li>
-                <li class="nav-item nav-link m-2">
-                    <a class="icons " href="#">
-                        <i class="fa-brands fa-angellist icon"></i>
-                    </a>
-                </li>
-                <li class="nav-item nav-link m-2">
-                    <a  class="icons" href="https://twitter.com/Progress_2002" aria-label="Access my Twitter account">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="nav-item nav-link m-2">
-                    <a class="icons " href="#">
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                </li>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
               </ul>
-              <div class="arrow">
-                <i class="fa-solid fa-arrow-down border border-2 py-3 px-3 rounded-circle"></i>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
               </div>
-          </section>
-    </header>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
+              </ul>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
+              </ul>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
+              </ul>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-4 work-item">
+          <div class="card">
+            <div class="card-img-top"></div>
+            <div class="card-body">
+              <h4 class="card-title text-center h3">
+                Multi-Post Stories Gain+Glory
+              </h4>
+              <ul class="d-flex my-4">
+                <li class="">Ruby on rails</li>
+                <li class="">Css</li>
+                <li class="">Javascript</li>
+                <li class="">Html</li>
+              </ul>
+              <div class="text-center my-4">
+                <a href="#" class="btn btn-success btn-lg">See project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
