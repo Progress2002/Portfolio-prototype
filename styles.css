@@ -11,7 +11,7 @@ ul {
 header {
   background-color: #fff;
   padding-bottom: 412px;
-  background-image: url("images/Header-llustration-desktop.svg");
+  background-image: url("../images/Header-llustration-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -75,11 +75,13 @@ nav .nav-link {
 }
 
 .work {
-  margin-bottom: 192px;
+  margin-bottom: 250px;
 }
 
 .work .d-flex {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .work .card-title {
@@ -111,3 +113,65 @@ nav .nav-link {
   border-radius: 10px;
   padding: 10px 20px;
 }
+
+.about-section {
+  background-image: url("../images/about-me-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.about {
+  padding: 154px 0;
+}
+
+.about h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172b4d;
+}
+
+.about p {
+  width: 920px;
+  height: 106px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 10px auto 24px;
+  padding: 0 90px;
+}
+
+.about .card,
+.about .card-body {
+  background-color: #EBF0EE;
+}
+
+.about .btn {
+  margin-bottom: 50px;
+}
+
+.about .row {
+  margin-bottom: 50px;
+}
+
+.about .row .card {
+  margin-top: 20px;
+  height: 352px;
+}
+
+.about ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about ul li {
+  padding: 6px 12px;
+  color: #36b37f;
+  background-color: #fff;
+  margin-top: 8px;
+}
+/*# sourceMappingURL=styles.css.map */
