@@ -2,20 +2,31 @@ $priColor: #172b4d;
 $secColor: #36b37f;
 $font-family-1: 'Inter', sans-serif;
 
+body {
+  font-family: $font-family-1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.icons {
+  color: $priColor;
+  font-size: 20px;
+}
+
 header {
   background-color: #fff;
   padding-bottom: 412px;
-  background-image: url("images/Header-llustration-desktop.svg");
+  background-image: url("../images/Header-llustration-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 nav {
-  .logo {
-    display: none;
-  }
-
   .nav-link {
     color: $priColor;
   }
@@ -53,12 +64,253 @@ nav {
     margin: auto;
   }
 
-  .icons {
-    color: $priColor;
-    font-size: 20px;
-  }
+  // .icons {
+  //   color: $priColor;
+  //   font-size: 20px;
+  // }
 
   .arrow {
     margin: 60px;
+  }
+}
+
+.container h2 {
+  color: $priColor;
+  font-family: $font-family-1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.work {
+  margin-bottom: 250px;
+
+  .d-flex {
+    justify-content: space-between;
+  }
+
+  .card-title {
+    color: $priColor;
+  }
+
+  li {
+    background-color: #ebf0ee;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .card-img-top {
+    height: 252px;
+    background-color: #ebf0ee;
+  }
+
+  .work-item {
+    margin-top: 20px;
+  }
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.about-section {
+  background-image: url("../images/about-me-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.about {
+  padding: 114px 0;
+
+  h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: $priColor;
+  }
+
+  p {
+    width: 920px;
+    height: 106px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 10px auto 24px;
+    padding: 0 90px;
+  }
+
+  .card,
+  .card-body {
+    background-color: #ebf0ee;
+  }
+
+  .btn {
+    margin-bottom: 50px;
+  }
+
+  .row {
+    margin-bottom: 50px;
+
+    .card {
+      margin-top: 20px;
+      height: 352px;
+    }
+  }
+
+  ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+      padding: 6px 12px;
+      color: $secColor;
+      background-color: #fff;
+      margin-top: 8px;
+    }
+  }
+}
+
+.contact {
+  background-image: url("images/form-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  h2 {
+    width: 463px;
+    height: 256px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .row {
+    justify-content: space-between;
+    padding-bottom: 225px;
+  }
+}
+
+footer {
+  border-top: 2px solid #dfe1e6;
+}
+
+@media (max-width: 765px) {
+  header {
+    background-color: #fff;
+    padding-bottom: 0;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .headline {
+    h1 {
+      height: auto;
+      font-size: 40px;
+      width: 100%;
+      margin: 40px auto 15px;
+    }
+
+    p {
+      width: 100%;
+      height: auto;
+      margin: auto auto 20px;
+    }
+
+    .arrow {
+      display: none;
+    }
+  }
+
+  .work {
+    margin-bottom: 150px;
+
+    .card-title {
+      color: $priColor;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 20px;
+      margin: 20px auto;
+      width: 200px;
+      font-weight: 600;
+    }
+
+    .work-item {
+      margin-top: 20px;
+    }
+  }
+
+  .about {
+    padding: 114px 0 50px;
+
+    h4 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    p {
+      width: 100%;
+      height: auto;
+      font-weight: 400;
+      font-size: 18px;
+      margin: 10px auto 24px;
+      padding: 0 10px;
+    }
+  }
+
+  .contact {
+    background-image: none;
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      height: auto;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 42px;
+      margin-bottom: 40px;
+    }
+
+    .row {
+      padding-bottom: 35px;
+    }
+
+    .submit-btn {
+      text-align: center;
+    }
+  }
+
+  footer {
+    border-top: none;
+    padding-bottom: 100px;
+    position: relative;
+  }
+
+  footer::after {
+    content: " ";
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    background: $priColor;
+    border-radius: 10px;
+    bottom: 10px;
+    margin-left: 110px;
   }
 }
