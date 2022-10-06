@@ -4,39 +4,20 @@
 
 Portfolio-PRototype
 
-> Description the project.
+### Description the project.
+This project is an amaizing  project as it contains list of awesom applications we have built in receent times.
+ Go ahead and check it out and don't hesitate to reach out  if you would love somthing as cool as that on your Website or would want to build a website .
 
 
 ## Built With
 
 - Major languages (HTML & CSS)
 - Frameworks (Bootstrap)
-- Technologies used (Git&Github, Linters)
+- Technologies used (Git&Github, Linters, SASS)
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -44,15 +25,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Progress2002)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Moise-code)
 
 ## 🤝 Contributing
 
