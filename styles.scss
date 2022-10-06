@@ -1,0 +1,64 @@
+$priColor: #172b4d;
+$secColor: #36b37f;
+$font-family-1: 'Inter', sans-serif;
+
+header {
+  background-color: #fff;
+  padding-bottom: 412px;
+  background-image: url("images/Header-llustration-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+nav {
+  .logo {
+    display: none;
+  }
+
+  .nav-link {
+    color: $priColor;
+  }
+}
+
+.headline {
+  h1 {
+    color: $secColor;
+    font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    width: 700px;
+    height: 114px;
+    margin: 140px auto 15px;
+
+    span {
+      color: $priColor;
+      display: block;
+    }
+  }
+
+  p {
+    font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: $priColor;
+    width: 820px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .icons {
+    color: $priColor;
+    font-size: 20px;
+  }
+
+  .arrow {
+    margin: 60px;
+  }
+}
