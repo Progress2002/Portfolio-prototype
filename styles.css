@@ -8,6 +8,11 @@ ul {
   list-style-type: none;
 }
 
+.icons {
+  color: #172b4d;
+  font-size: 20px;
+}
+
 header {
   background-color: #fff;
   padding-bottom: 412px;
@@ -15,10 +20,6 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
-
-nav .logo {
-  display: none;
 }
 
 nav .nav-link {
@@ -56,11 +57,6 @@ nav .nav-link {
   margin: auto;
 }
 
-.headline .icons {
-  color: #172b4d;
-  font-size: 20px;
-}
-
 .headline .arrow {
   margin: 60px;
 }
@@ -80,8 +76,8 @@ nav .nav-link {
 
 .work .d-flex {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .work .card-title {
@@ -122,7 +118,7 @@ nav .nav-link {
 }
 
 .about {
-  padding: 154px 0;
+  padding: 114px 0;
 }
 
 .about h4 {
@@ -145,7 +141,7 @@ nav .nav-link {
 
 .about .card,
 .about .card-body {
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
 }
 
 .about .btn {
@@ -163,9 +159,9 @@ nav .nav-link {
 
 .about ul {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .about ul li {
@@ -174,4 +170,138 @@ nav .nav-link {
   background-color: #fff;
   margin-top: 8px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.contact {
+  background-image: url("images/form-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.contact h2 {
+  width: 463px;
+  height: 256px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.contact .row {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 225px;
+}
+
+footer {
+  border-top: 2px solid #dfe1e6;
+}
+
+@media (max-width: 765px) {
+  header {
+    background-color: #fff;
+    padding-bottom: 0;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .headline h1 {
+    height: auto;
+    font-size: 40px;
+    width: 100%;
+    margin: 40px auto 15px;
+  }
+
+  .headline p {
+    width: 100%;
+    height: auto;
+    margin: auto auto 20px;
+  }
+
+  .headline .arrow {
+    display: none;
+  }
+
+  .work {
+    margin-bottom: 150px;
+  }
+
+  .work .card-title {
+    color: #172b4d;
+  }
+
+  .work h2 {
+    font-size: 30px;
+  }
+
+  .work h4 {
+    font-size: 20px;
+    margin: 20px auto;
+    width: 200px;
+    font-weight: 600;
+  }
+
+  .work .work-item {
+    margin-top: 20px;
+  }
+
+  .about {
+    padding: 114px 0 50px;
+  }
+
+  .about h4 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .about p {
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px auto 24px;
+    padding: 0 10px;
+  }
+
+  .contact {
+    background-image: none;
+  }
+
+  .contact h2 {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    margin-bottom: 40px;
+  }
+
+  .contact .row {
+    padding-bottom: 35px;
+  }
+
+  .contact .submit-btn {
+    text-align: center;
+  }
+
+  footer {
+    border-top: none;
+    padding-bottom: 100px;
+    position: relative;
+  }
+
+  footer::after {
+    content: " ";
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    background: #172b4d;
+    border-radius: 10px;
+    bottom: 10px;
+    margin-left: 110px;
+  }
+}
