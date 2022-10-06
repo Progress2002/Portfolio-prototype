@@ -17,7 +17,7 @@ This project is an amaizing  project as it contains list of awesom applications 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://progress2002.github.io/Portfolio-prototype/)
 
 
 
